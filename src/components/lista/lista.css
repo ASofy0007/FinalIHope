@@ -1,0 +1,13 @@
+.lista {
+  text-align: left;
+  font: 30px;
+  color: black;
+}
+
+.listTitle {
+  font: 30px;
+  color: rgba(0, 110, 255, 0.89);
+}
+li {
+  list-style: none;
+}

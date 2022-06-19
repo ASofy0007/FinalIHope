@@ -1,0 +1,15 @@
+.tabuleiro {
+  display: grid;
+  grid-template-columns: repeat(15, auto);
+  grid-template-rows: repeat(15, auto);
+
+  margin: 10px;
+  padding: 60px;
+  padding-bottom: 0px;
+  width: 500px;
+  height: 500px;
+}
+
+.tabuleiro > div {
+  text-align: center;
+}

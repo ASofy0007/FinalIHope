@@ -1,0 +1,65 @@
+/* Fazer: Diminuir tamanho do nivel form(ta a ocupar tudo o que pode)
+          Por bonitinho for short*/
+section {
+  border: 1px solid blue;
+  width: 500px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.formulario {
+  display: flex;
+}
+
+.btInicio:hover,
+.bTop:hover {
+  background-color: darkblue;
+}
+.btInicio,
+.bTop {
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  background-color: rgba(39, 118, 221, 0.788);
+  margin: 10px;
+  border: solid;
+}
+
+.nivel {
+  padding-left: 60px;
+}
+
+.escolhaN {
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  width: 270px;
+}
+
+label {
+  padding: 10px;
+}
+
+#niveis,
+#newWord {
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgba(39, 118, 221, 0.788);
+}
+
+.gInfo {
+  display: flex;
+  justify-content: center;
+}
+dl {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+.gameTime,
+.points {
+  margin: 10px;
+  background-color: rgba(39, 118, 221, 0.788);
+}
